@@ -1,6 +1,4 @@
-import React from 'react'
-import useSWR from 'swr'
-import { fetcher } from './util';
+import React from 'react' 
 
 const App = () => { 
    
