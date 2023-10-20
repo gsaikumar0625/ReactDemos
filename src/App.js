@@ -3,7 +3,7 @@ import useSWR from 'swr'
 import { fetcher } from './util';
 
 const App = () => { 
-  const { data, error } = useSWR('https://api.cortevaseedresearch.com/rest/mcrc/getCategoryMaster', fetcher,{ refreshInterval  : 1000 });   
+  const { data, error } = useSWR('https://api.cortevaseedresearch.com/rest/mcrc/getCategoryMaster',  fetcher,{ refreshInterval  : 1000 });   
   if (error) {
     return <div>Error loading data</div>;
   } 
